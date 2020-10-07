@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
     <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="dist/theme/me.css" id="theme" />
 
     <!-- Theme used for syntax highlighted code -->
     <link
@@ -35,70 +36,97 @@
             <tr>
               <td style="vertical-align: top">
                 <ul>
-                  <li>
+                  <li class="fragment">
                     @sheena <a href="https://zatech.co.za/">ZATech Slack</a>
                   </li>
-                  <li>CTO of <a href="http://umuzi.org/">Umuzi</a></li>
-                  <li>
+                  <li class="fragment">
+                    CTO of <a href="http://umuzi.org/">Umuzi</a>
+                  </li>
+                  <li class="fragment">
                     Lead architect
                     <a href="https://www.africancoding.network/"
                       >African Coding Network</a
                     >
                   </li>
-                  <li>Been coding in some form for > 15 years</li>
-                  <li>I 💙 Python</li>
+                  <li class="fragment">
+                    Been coding in some form for > 15 years
+                  </li>
+                  <li class="fragment">I 💙 Python</li>
                 </ul>
               </td>
-              <td width="300" style="vertical-align: middle">
+              <td width="350" style="vertical-align: middle">
                 <img
-                  src="assets/IMG_20190904_085837.jpg"
+                  src="images/head-and-shoulders.jpg"
                   class="avitar"
-                  height="300"
-                  width="300"
+                  width="350"
                 />
               </td>
             </tr>
           </table>
         </section>
         <section>
-          <h2>Once upon a time, in an apartment block far far away...</h2>
-          (if you are far from JeppesTown, JHB)
+          <section>
+            <h2>Once upon a time, in an apartment block far far away...</h2>
+            (if you are far from JeppesTown, JHB)
+          </section>
+          <section>
+            <img src="images/studio/collage.png" />
+          </section>
         </section>
         <section>
-          <section>Pictures of our space</section>
-
           <section>
-            <h2>Umuzi</h2>
-            TODO: hire train accelerate (key metric)
+            <img src="images/Umuzi+Logo+with+symbol_white.png" />
           </section>
           <section>
             <h2>Umuzi</h2>
-            Stats, #jobs
+            <img src="images/funnel.png" />
+          </section>
+          <section>
+            <h2>Umuzi</h2>
+            <img src="images/stats.png" />
           </section>
           <section>
             <h2>Umuzi</h2>
             <ul>
               <li>lots of human interaction</li>
-              <li>lots of google forms</li>
-              <li>
+              <li class="fragment">lots of google forms</li>
+              <li class="fragment">
                 random little utilities scripts to help staff wrangle data
               </li>
-              <li>Syllabus as a static site (using hugo)</li>
-              <li>
+              <li class="fragment">Syllabus as a static site (using hugo)</li>
+              <li class="fragment">
                 once students get through syllabus they work on real stuff
               </li>
             </ul>
           </section>
-          <section>picture of recruitment portal</section>
+          <section>
+            <img src="images/rec-portal.png" />
+          </section>
         </section>
-        <section>
+        <section
+          style="
+            background-image: url(images/covid/1024px-Novel_Coronavirus_SARS-CoV-2.jpg);
+          "
+        >
           <section>
             <h2>And then came COVID</h2>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Locking down</h2>
             <ul>
               <li>250 odd students and a bunch of staff on site => remote</li>
-              <li>Computers, data, medical aid, insurance, transport...</li>
-              <li>everything we had been doing needed to change</li>
-              <li>And most of our junior team mates were leaving for TIH</li>
+              <li class="fragment">
+                Computers, data, medical aid, insurance, transport...
+              </li>
+              <li class="fragment">
+                everything we had been doing needed to change
+              </li>
+              <li class="fragment">
+                And most of our junior team mates were leaving for TIH...
+              </li>
             </ul>
           </section>
           <section>
@@ -115,15 +143,15 @@
           <h2>And so we built...</h2>
           <section>
             <h3>First there was attendance...</h3>
-            pic: attendance scatter
+            <img src="images/attendance.png" />
           </section>
           <section>
             <h3>But</h3>
             <p>What we really care about is productivity</p>
 
             <ul>
-              <li>Async</li>
-              <li>Self-paced</li>
+              <li class="fragment">Async interactions</li>
+              <li class="fragment">Self-paced learning</li>
             </ul>
           </section>
         </section>
@@ -133,8 +161,8 @@
             <h2>We needed to</h2>
             <ul>
               <li>Administer, track, and deliver training...</li>
-              <li>Report on progress</li>
-              <li>manage multiple learning tracks</li>
+              <li class="fragment">Report on progress</li>
+              <li class="fragment">manage multiple learning tracks</li>
             </ul>
             <br />
             <br />
@@ -142,18 +170,24 @@
           </section>
 
           <section>
-            <h2>We needed to</h2>
+            <h2>We needed (and wanted) more than that</h2>
             <ul>
               <li>
                 Integrate with our existnig syllabus without too much
                 pain/suffering
               </li>
-              <li>self paced learning</li>
-              <li>reporting and visability (smoke detection)</li>
-              <li>reduce dependency on staff</li>
-              <li>simulate real work environment as much as possible</li>
-              <li>promote healthy dev-team habits and practices</li>
-              <li>Integrate with git</li>
+              <li class="fragment">self paced learning</li>
+              <li class="fragment">
+                reporting and visability (smoke detection)
+              </li>
+              <li class="fragment">reduce dependency on staff</li>
+              <li class="fragment">
+                simulate real work environment as much as possible
+              </li>
+              <li class="fragment">
+                promote healthy dev-team habits and practices
+              </li>
+              <li class="fragment">Integrate with git</li>
             </ul>
           </section>
 
@@ -169,17 +203,42 @@
             <span style="font-size: 5em">~</span> <br />
           </section>
 
-          <section>Also this thing: TODO: Kanban. Demo slide pics</section>
+          <section>
+            <p>Also this thing</p>
+            <img src="images/tilde/board-tour.gif" height="300" />
+          </section>
         </section>
 
         <section>
-          <h2>Agile Triage + Code review + card actions</h2>
+          <h2>A day in the life of a student</h2>
+          <img src="images/tilde/cards.png" />
         </section>
 
         <section>
-          <h2>Knowledge graph</h2>
+          <section>
+            <h2>Under the hood</h2>
+          </section>
 
-          syllabus as code => knowledge graph => selected nodes => backlog => UI
+          <section>
+            <h2>Syllabus as code</h2>
+            <img src="images/tilde/syllabus-as-code.png" height="500" />
+          </section>
+          <section>
+            <img src="images/tilde/knowledge-graph.png" />
+          </section>
+          <section>
+            <img src="images/tilde/knowledge-graph-selected.png" />
+          </section>
+          <section>
+            <img src="images/tilde/knowledge-graph-derived.png" />
+          </section>
+          <section>
+            <img src="images/tilde/generate-backlog.png" />
+          </section>
+          <section>
+            syllabus as code => knowledge graph => selected nodes => backlog =>
+            UI
+          </section>
         </section>
 
         <section>
